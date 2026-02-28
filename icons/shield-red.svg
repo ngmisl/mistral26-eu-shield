@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Shield shape -->
+  <path d="M64,5 C95,5 123,33 123,64 C123,95 95,123 64,123 C33,123 5,95 5,64 C5,33 33,5 64,5 Z" 
+        fill="url(#redGradient)" stroke="#c0392b" stroke-width="2"/>
+  
+  <!-- Warning exclamation -->
+  <circle cx="64" cy="55" r="8" fill="white" stroke="#c0392b" stroke-width="2"/>
+  <rect x="62" y="35" width="4" height="15" fill="#c0392b"/>
+  
+  <!-- Text label -->
+  <text x="64" y="115" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="bold">GDPR</text>
+</svg>
